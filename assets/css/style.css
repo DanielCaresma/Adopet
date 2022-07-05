@@ -1,0 +1,44 @@
+.app {
+    background: #3772FF;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+
+.vetor-topo {
+    position: absolute;
+    width: 352.11px;
+    height: 295px;
+    left: -0.5px;
+    top: 0px;
+}
+
+.vetor-lateral {
+    position: absolute;
+    width: 84.03px;
+    height: 415px;
+    left: 290.7px;
+    top: 199px;
+}
+
+.ilustracao-animais {
+    position: absolute;
+    width: 247.34px;
+    height: 312.77px;
+    left: 33.66px;
+    top: 518px;
+}
+
+.cabecalho {
+    align-items: flex-end;
+    display: flex;
+    height: 68px;
+    gap: 58px;
+    margin-left: 15%;
+    position: absolute;
+}
+
+.rodape {
+    background: #36D6AD;
+    color: #fff;
+    position: absolute;
+}
