@@ -22,7 +22,7 @@
     bottom: 0;
     height: 312.77px;
     width: 247.34px;
-    left: 33.66px;
+    left: 0;
     margin: 0 auto;
 }
 
@@ -58,7 +58,7 @@
     left: 0;
     margin: 0 auto;
     width: 248px;
-    gap: 24px;
+    gap: 16px;
     text-align: center;
 }
 
@@ -75,26 +75,21 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    margin-bottom: 8px;
 }
 
-.container__botao {
-    width: 180px;
-    left: 90px;
-    top: 398px;
-    padding: 8px;
-    text-align: center;
+.botao {
     background: #FC7071;
     border-radius: 6px;
     box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25);
+    padding: 8px;
+    text-align: center;
+    width: 180px;
 }
 
-
-
-
-
-
-
-
+.botao:hover {
+    cursor: pointer;
+}
 
 .rodape {
     align-items: center;
@@ -104,7 +99,6 @@
     height: 6.5rem;
     justify-content: center;
     width: 100vw;
-
     position: absolute;
     top: 813px;
 }
