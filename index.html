@@ -4,34 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boas-vindas | Adopet</title>
-    <link rel="stylesheet" href="./assets/css/reset.css">
+    <title>Início | Adopet</title>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/base/base.css">
 </head>
 
 <body class="app">
-    <img src="./assets/img/vetor-topo.svg" alt="" class="vetor-topo">
-    <img src="./assets/img/vetor-lateral.svg" alt="" class="vetor-lateral">
-    <img src="./assets/img/ilustração-animais.svg" alt="" class="ilustracao-animais">
     <header class="cabecalho">
-        <a href="#" class="cabecalho__link-home"><img src="./assets/img/Casa.svg" alt="Home"></a>
-        <a href="#" class="cabecalho__link-mensagens"><img src="./assets/img/Mensagens.svg" alt="Mensagens"></a>
+        <nav>
+            <a href="#" class="cabecalho__link"><img src="./assets/img/Casa.svg" alt="Página Inicial"></a>
+            <a href="#" class="cabecalho__link"><img src="./assets/img/Mensagens.svg" alt="Caixa de mensagens"></a>
+        </nav>
     </header>
 
-    <main>
-        <img src="./assets/img/Logo.svg" alt="Logo" class="logo">
-        <article class="container">
-            <h3 class="container__titulo">Boas-vindas!</h3>
-            <p class="container__paragrafo">Que tal mudar sua vida adotando seu novo melhor amigo? Vem com a gente!</p>
-                <a href="#" class="botao container__botao-login"><button>Já tenho conta</button></a>
-                <a href="#" class="botao container__botao-cadastrar"><button>Quero me cadastrar</button></a>
-        </article>
+    <main class="container">
+        <img class="logo" src="./assets/img/Logo.svg" alt="Logo Adopet" >
+        <h3 class="container__titulo">Boas-vindas!</h3>
+        <p class="container__texto">Que tal mudar sua vida adotando seu novo melhor amigo? Vem com a gente!</p>
+        <a class="container__link" href="#">Já tenho conta</a>
+        <a class="container__link" href="#">Quero me cadastrar</a>
     </main>
 
 
     <footer class="rodape">
-        <p>2022 - Desenvolvido por Alura</p>
+        <p>2022 - Desenvolvido por Alura.</p>
     </footer>
 </body>
 </html>

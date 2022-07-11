@@ -1,0 +1,82 @@
+@import url("./_variaveis.css");
+@import url("./_reset.css");
+
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    background: #3772FF;
+    background-image: 
+        url("../../img/vetor-topo.svg"), 
+        url("../../img/vetor-lateral.svg"), 
+        url("../../img/ilustração-animais.svg");
+    background-position: top left, center right, bottom 5rem center ;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.cabecalho {
+    padding: 3.125rem 3rem 6.25rem;
+}
+
+.cabecalho__link {
+    padding-right: 3.625rem;
+}
+
+.container {
+    text-align: center;
+    width: 15.625rem;
+    min-height: 290px;
+    margin: 0 auto;
+    flex-grow: 1;
+}
+
+.container__titulo {
+    color: #fff;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.625rem;
+    line-height: 3rem;
+}
+
+.container__texto {
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
+
+.container__link {
+    color: #fff;
+    display: block;
+    background: #FC7071;
+    border-radius: 6px;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25);
+    font-weight: 600;
+    padding: .5rem;
+    text-align: center;
+    text-decoration: none;
+    width: 11.25rem;
+    margin: 0 auto 1rem;
+}
+
+.container__link:hover {
+    cursor: pointer;
+}
+
+.rodape {
+    background: #36D6AD;
+    color: #fff;
+    text-align: center;
+    padding: 2.5rem;
+}
