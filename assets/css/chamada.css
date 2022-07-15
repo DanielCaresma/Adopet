@@ -1,4 +1,10 @@
 .chamada {
+    background-image:
+        url("../img/ilustração-animais.svg");
+    background-position: bottom -1.15rem left -1rem;
+    background-repeat: no-repeat;
+
+
     text-align: center;
     width: 15.625rem;
     margin: 0 auto;

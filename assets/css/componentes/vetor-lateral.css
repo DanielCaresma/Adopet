@@ -1,0 +1,11 @@
+.vetor-lateral--direita {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+
+    background-image: 
+        url("../../img/vetor-lateral.svg");
+    background-position: 100% 2.26rem;
+    background-repeat: no-repeat;
+}

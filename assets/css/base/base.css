@@ -4,15 +4,13 @@
 .app {
     background: var(--azul);
     background-image: 
-        url("../../img/vetor-topo.svg"), 
-        url("../../img/vetor-lateral.svg"), 
-        url("../../img/ilustração-animais.svg");
-    background-position: top left, center right, bottom 5rem center ;
+        url("../../img/vetor-topo.svg");
+    background-position: top left;
     background-repeat: no-repeat;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    margin: 0%;
+    margin: 0;
     font-family: var(--fonte-principal);
     font-style: normal;
     font-weight: var(--peso-padrao);
