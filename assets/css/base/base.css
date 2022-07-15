@@ -1,12 +1,6 @@
 @import url("./_variaveis.css");
 @import url("./_reset.css");
 
-:root {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .app {
     background: #3772FF;
     background-image: 
@@ -37,8 +31,8 @@
 .container {
     text-align: center;
     width: 15.625rem;
-    min-height: 290px;
     margin: 0 auto;
+    min-height: 38rem;
     flex-grow: 1;
 }
 
