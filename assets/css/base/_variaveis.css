@@ -1,0 +1,20 @@
+:root {
+    --azul: #3772FF;
+    --coral: #FC7071;
+    --coral-claro: #FF9D9E;
+    --creme: #FCF0E3;
+    --verde: #36D6AD;
+    --branco: #ffffff;
+    --cinza: #737380;
+    --cinza-claro: #BCBCBC;
+    --cinza-claro-fundos: #F6F6F6;
+
+    --fonte-principal: 'Poppins', sans-serif;
+    --fonte-personalizada: 'IBM Plex Sans';
+
+    --tamanho-titulo: 1.625rem;
+
+    --peso-padrao: 400;
+    --peso-titulo: 500;
+    --peso-botao: 600;
+}
