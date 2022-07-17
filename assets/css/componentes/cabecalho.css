@@ -5,3 +5,9 @@
 .cabecalho__link {
     padding-right: 3.625rem;
 }
+
+.cabecalho--patas {
+    background-image: url(../../img/Patas.svg);
+    background-position: top right;
+    background-repeat: no-repeat;
+}

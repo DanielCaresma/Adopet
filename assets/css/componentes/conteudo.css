@@ -1,5 +1,21 @@
+.conteudo {
+    text-align: center;
+    width: 19.5rem;
+    margin: 0 auto;
+    min-height: 38rem;
+}
+
 .conteudo--flex {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+}
+
+.conteudo__introducao {
+    color: var(--azul);
+    font-family: var(--fonte-principal);
+    font-weight: var(--peso-padrao);
+    font-size: 1rem;
+    line-height: 1.312rem;
+    margin: 1.5rem 0;
 }

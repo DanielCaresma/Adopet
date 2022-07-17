@@ -4,3 +4,10 @@
     background-position: 100% 2.26rem;
     background-repeat: no-repeat;
 }
+
+.vetor-lateral--esquerda {
+    background-image: 
+        url("../../img/vetor-lateral-esquerda.svg");
+    background-position: left center;
+    background-repeat: no-repeat;
+}
