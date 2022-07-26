@@ -24,7 +24,7 @@
 
 .bg-patas-vetor-esquerda {
     background-image: 
-        url(../../img/vetor-topo.svg), url(../../img/vetor-lateral-esquerda.svg);
-    background-position: top left, 0 26rem;
+    url(../../img/Patas.svg), url(../../img/vetor-topo.svg), url(../../img/vetor-lateral-esquerda.svg);
+    background-position: top right, top left, 0 23rem;
     background-repeat: no-repeat;
 }

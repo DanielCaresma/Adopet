@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro | Adopet</title>
+    <title>Login | Adopet</title>
     <link rel="stylesheet" href="./assets/css/base/base.css">
     <link rel="stylesheet" href="./assets/css/componentes/cabecalho.css">
     <link rel="stylesheet" href="./assets/css/componentes/conteudo.css">
@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./assets/css/componentes/rodape.css">
 </head>
 <body class="app bg-patas-vetor-esquerda">
-    <header class="cabecalho">
+    <header class="cabecalho cabecalho--patas">
         <nav>
             <a href="./index.html" class="cabecalho__link"><img src="./assets/img/Casa.svg" alt="Página Inicial"></a>
             <a href="#" class="cabecalho__link"><img src="./assets/img/Mensagens.svg" alt="Caixa de mensagens"></a>
@@ -22,19 +22,14 @@
     <main class="conteudo conteudo--flex">
         <h1 class="logo"><img src="./assets/img/Logo-azul.svg" alt="Logo da Adopet"></h1>
         <p class="conteudo__introducao">
-            Ainda não tem cadastro?<br><br>
-            Então, antes de buscar seu melhor amigo, precisamos de alguns dados:
+            Já tem sua conta? Faça seu login:
         </p>
         <form class="formulario" action="">
             <label class="formulario__label" for="email">Email</label>
-            <input class="formulario__input" id= "email" type="text" placeholder="Escolha seu melhor email" aria-label="Escolha seu melhor email"> 
-            <label class="formulario__label" for="nome">Nome</label>
-            <input class="formulario__input" id="nome" type="text" placeholder="Digite seu nome completo" aria-label="Digite seu nome completo">
+            <input class="formulario__input" id= "email" type="text" placeholder="Insira seu email" aria-label="Insira seu email">
             <label class="formulario__label" for="senha">Senha</label>
-            <input class="formulario__input" id="senha" type="password" placeholder="Crie uma senha" aria-label="Crie uma senha">
-            <label class="formulario__label" for="confirma-senha">Confirma sua senha</label>
-            <input class="formulario__input" id="confirma-senha" type="password" placeholder="Repita a senha criada acima" aria-label="Repita a senha criada acima">
-            <button class="formulario__botao">Cadastrar</button>
+            <input class="formulario__input" id="senha" type="password" placeholder="Insira sua senha" aria-label="Insira sua senha">
+            <button class="formulario__botao">Entrar</button>
         </form>
     </main>
 
