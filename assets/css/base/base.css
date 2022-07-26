@@ -2,11 +2,6 @@
 @import url("./_reset.css");
 
 .app {
-    background-image: 
-        url("../../img/vetor-topo.svg");
-    background-position: top left;
-    background-repeat: no-repeat;
-    z-index: 1;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -18,10 +13,18 @@
     line-height: 1.5rem;
 }
 
-.app--azul {
+.bg-tela-inicial {
     background-color: var(--azul);
+    background-image: 
+        url("../../img/vetor-topo.svg");
+    background-position: top left;
+    background-repeat: no-repeat;
+    z-index: 1;
 }
 
-.app--branco {
-    background-color: var(--branco);
+.bg-patas-vetor-esquerda {
+    background-image: 
+        url(../../img/vetor-topo.svg), url(../../img/vetor-lateral-esquerda.svg);
+    background-position: top left, 0 26rem;
+    background-repeat: no-repeat;
 }

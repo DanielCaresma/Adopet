@@ -8,6 +8,6 @@
 .vetor-lateral--esquerda {
     background-image: 
         url("../../img/vetor-lateral-esquerda.svg");
-    background-position: left center;
+    background-position: 0 ;
     background-repeat: no-repeat;
 }
