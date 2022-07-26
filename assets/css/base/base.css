@@ -28,3 +28,10 @@
     background-position: top right, top left, 0 23rem;
     background-repeat: no-repeat;
 }
+
+.bg-animais {
+    background-image: 
+    url(../../img/vetor-topo.svg);
+    background-position:top left;
+    background-repeat: no-repeat;
+}

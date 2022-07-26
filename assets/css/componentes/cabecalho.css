@@ -1,13 +1,15 @@
 .cabecalho {
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
     padding: 3.125rem 3rem 5.437rem;
 }
 
 .cabecalho__link {
-    padding-right: 3.625rem;
+    
 }
 
-.cabecalho--patas {
-    background-image: url(../../img/Patas.svg);
-    background-position: top right;
-    background-repeat: no-repeat;
+.cabecalho__link-usuario {
+    
+    
 }
