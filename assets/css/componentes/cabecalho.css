@@ -1,15 +1,15 @@
 .cabecalho {
-    display: flex;
-    gap: 50px;
-    flex-direction: row;
     padding: 3.125rem 3rem 5.437rem;
 }
 
-.cabecalho__link {
-    
+.cabecalho__nav {
+    align-items: center;
+    display: flex;
+    gap: 50px;
+    position: relative;
 }
 
 .cabecalho__link-usuario {
-    
-    
+    position: absolute;
+    right: 0;
 }
