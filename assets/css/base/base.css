@@ -34,4 +34,6 @@
     url(../../img/vetor-topo.svg);
     background-position:top left;
     background-repeat: no-repeat;
+
+    z-index: 1;
 }

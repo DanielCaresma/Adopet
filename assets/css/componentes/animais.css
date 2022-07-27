@@ -1,0 +1,71 @@
+.animais {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.card-animal {
+    background-color: var(--cinza-claro-fundos);
+
+    display: flex;
+    align-items: center;
+
+    z-index: -2;
+}
+
+.animal__imagem {
+    padding: 1.5rem 1rem 1.5rem 1.5rem;
+    width: auto;
+}
+
+.animal__ficha {
+    padding: 1rem 0 1rem;
+    text-align: left;
+}
+
+.animal__nome {
+    color: var(--azul);
+
+    font-family: var(--fonte-principal);
+    font-weight: var(--peso-botao);
+    font-size: 1rem;
+    line-height: 20px;
+}
+
+.animal__info {
+    color: var(--cinza);
+
+    font-family: var(--fonte-principal);
+    font-weight: var(--peso-padrao);
+    font-size: .875rem;
+
+    line-height: 20px;
+}
+
+.animal__cidade {
+    color: var(--cinza);
+
+    font-family: var(--fonte-principal);
+    font-weight: var(--peso-padrao);
+    font-size: .75rem;
+    line-height: 16px;
+
+    margin-top: 1.875rem;
+}
+
+.animal__contato {
+    color: var(--cinza);
+
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+
+    font-family: var(--fonte-principal);
+    font-weight: var(--peso-padrao);
+    font-size: .625rem;
+    line-height: 1rem;
+
+    margin-top: .437rem;
+}
