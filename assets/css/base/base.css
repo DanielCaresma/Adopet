@@ -15,7 +15,7 @@
 
 .bg-tela-inicial {
     background-color: var(--azul);
-    background-image: 
+    background-image:
         url("../../img/vetor-topo.svg");
     background-position: top left;
     background-repeat: no-repeat;
@@ -23,8 +23,8 @@
 }
 
 .bg-patas-vetor-esquerda {
-    background-image: 
-    url(../../img/Patas.svg), url(../../img/vetor-topo.svg), url(../../img/vetor-lateral-esquerda.svg);
+    background-image:
+        url(../../img/Patas.svg), url(../../img/vetor-topo.svg), url(../../img/vetor-lateral-esquerda.svg);
     background-position: top right, top left, 0 23rem;
     background-repeat: no-repeat;
 }
@@ -35,8 +35,26 @@
     right: 0;
     top: 0;
     bottom: 0;
-    background-image: 
-    url(../../img/vetor-topo.svg);
-    background-position:top left;
+    background-image:
+        url(../../img/vetor-topo.svg);
+    background-position: top left;
     background-repeat: no-repeat;
+}
+
+.logo {
+    margin-bottom: 2.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .bg-tela-inicial {
+        background-image:
+            url("../../img/vetor-topo-desketop.svg");
+    }
+
+    .bg-patas-vetor-esquerda {
+        background-image:
+            url(../../img/Patas-desktop.svg), url(../../img/vetor-topo-desketop.svg), url(../../img/vetor-lateral.svg);
+        background-position: top right, top left, 100% 15rem;
+        background-repeat: no-repeat;
+    }
 }
