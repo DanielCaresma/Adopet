@@ -24,6 +24,7 @@
 .chamada__texto {
     color: var(--branco);
     margin-bottom: 1.5rem;
+    line-height: 26px;
 }
 
 .chamada__link {
@@ -38,9 +39,53 @@
     text-decoration: none;
     width: 11.25rem;
     margin: 0 auto 1rem;
+    box-sizing: border-box;
 }
 
 .chamada__link:hover {
     cursor: pointer;
     background-color: var(--coral-claro);
+}
+
+@media screen and (min-width: 768px) {
+    .chamada {
+        width: 344px;
+        background-position: bottom -2rem left -1rem;
+        background-size: 338.28px 442px;
+        min-height: 47rem;
+    }
+
+    .chamada__titulo {
+        font-size: 1.75rem;
+    }
+
+    .chamada__texto {
+        font-size: 1.125rem;
+    }
+
+    .chamada__link {
+        width: 100%;
+        font-size: 1.125rem;
+        margin-bottom: 1rem;
+        
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .chamada {
+        background-position: bottom -2rem left 3rem;
+        width: 488px;
+    }
+
+    .chamada__titulo {
+        margin-bottom: 1.5rem;
+    }
+
+    .chamada__texto {
+        margin-bottom: 2rem;
+    }
+
+    .chamada__link {
+        width: 360px;
+    }
 }

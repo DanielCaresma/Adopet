@@ -18,7 +18,7 @@
     background-image:
         url("../../img/vetor-topo.svg"),
         url("../../img/vetor-lateral.svg");
-    background-position: top left, right center;
+    background-position: top left, 100% 11.5rem;
     background-repeat: no-repeat;
     z-index: 1;
 }
@@ -43,7 +43,7 @@
 }
 
 .logo {
-    margin-bottom: 2.5rem;
+    margin-bottom: .5rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -57,12 +57,16 @@
         background-image:
             url(../../img/Patas-desktop.svg), 
             url(../../img/vetor-topo-desketop.svg), 
-            url(../../img/vetor-lateral.svg);
+            url(../../img/vetor-lateral--desktop.svg);
         background-position: top right, top left, 100% 15rem;
         background-repeat: no-repeat;
     }
 
     .bg-animais {
         background-image: url("../../img/vetor-topo-desketop.svg");
+    }
+
+    .logo {
+        width: 250px;
     }
 }
