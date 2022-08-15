@@ -70,3 +70,12 @@
         width: 250px;
     }
 }
+
+@media screen and (min-width:1440px) {
+    .bg-animais {
+        background-image: 
+            url("../../img/vetor-topo-desketop.svg"),
+            url("../../img/vetor-lateral--desktop.svg");
+        background-position: top left, right center;
+    }
+}

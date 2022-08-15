@@ -1,16 +1,16 @@
 .animais {
     display: flex;
     flex-direction: column;
-    row-gap: 1rem;
+    gap: 1rem;
     width: 100%;
-    margin-top: 2rem;
+    margin-top: 2rem; 
 }
 
 .card-animal {
     background: var(--cinza-claro-fundos);
-
+    text-align: center;
     display: flex;
-    align-items: center;
+    justify-content: center;
     z-index: -1;
 }
 
@@ -67,4 +67,27 @@
     line-height: 1rem;
 
     margin-top: .437rem;
+}
+
+@media screen and (min-width: 768px) {
+    .animais {
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 32px;
+        width: auto;
+    }
+
+    .card-animal {
+        width: 48%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .animais {
+        margin: 60px 160px;
+    }
+
+    .card-animal {
+        width: 32%;
+    }
 }
