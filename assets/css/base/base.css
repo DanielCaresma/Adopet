@@ -16,8 +16,9 @@
 .bg-tela-inicial {
     background-color: var(--azul);
     background-image:
-        url("../../img/vetor-topo.svg");
-    background-position: top left;
+        url("../../img/vetor-topo.svg"),
+        url("../../img/vetor-lateral.svg");
+    background-position: top left, right center;
     background-repeat: no-repeat;
     z-index: 1;
 }
@@ -48,7 +49,8 @@
 @media screen and (min-width: 768px) {
     .bg-tela-inicial {
         background-image:
-            url("../../img/vetor-topo-desketop.svg");
+            url("../../img/vetor-topo-desketop.svg"),
+            url("../../img/vetor-lateral--desktop.svg");
     }
 
     .bg-patas-vetor-esquerda {
