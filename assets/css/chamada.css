@@ -39,7 +39,6 @@
     text-decoration: none;
     width: 11.25rem;
     margin: 0 auto 1rem;
-    box-sizing: border-box;
 }
 
 .chamada__link:hover {
@@ -67,7 +66,7 @@
         width: 100%;
         font-size: 1.125rem;
         margin-bottom: 1rem;
-        
+        box-sizing: border-box;
     }
 }
 
