@@ -53,8 +53,14 @@
 
     .bg-patas-vetor-esquerda {
         background-image:
-            url(../../img/Patas-desktop.svg), url(../../img/vetor-topo-desketop.svg), url(../../img/vetor-lateral.svg);
+            url(../../img/Patas-desktop.svg), 
+            url(../../img/vetor-topo-desketop.svg), 
+            url(../../img/vetor-lateral.svg);
         background-position: top right, top left, 100% 15rem;
         background-repeat: no-repeat;
+    }
+
+    .bg-animais {
+        background-image: url("../../img/vetor-topo-desketop.svg");
     }
 }
