@@ -6,10 +6,10 @@ body {
 }
 
 .container {
-    width: 312px;
-    margin: 0 auto;
-    
+    width: 87%;
+    margin: 0 auto;  
     flex-grow: 1;
+    max-width: 552px;
 }
 
 .introducao {
@@ -76,4 +76,16 @@ body {
     height: 40px;
     margin: 0 auto;
     align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background: 
+            url("../img/vetor-topo-desketop.svg") no-repeat,
+            url("../img/vetor-lateral--desktop.svg") no-repeat;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        background-position: 0 0, right center;
+    }
 }
