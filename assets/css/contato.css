@@ -1,11 +1,15 @@
 body {
     background: url("../img/vetor-topo.svg") no-repeat;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .container {
     width: 312px;
     margin: 0 auto;
-    min-height: 70vh;
+    
+    flex-grow: 1;
 }
 
 .introducao {
