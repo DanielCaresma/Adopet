@@ -20,6 +20,18 @@
     height: 2.5rem;
 }
 
+.icon-eye {
+    position: relative;
+    float: right;
+}
+
+.icon-eye::before {
+    color: var(--cinza-claro);
+    position: absolute;
+    right: 10px;
+    top: 13px;
+}
+
 .formulario__recuperar-senha {
     color: var(--coral);
     display: block;
