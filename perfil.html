@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mensagem | Adopet</title>
+    <title>Perfil | Adopet</title>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/base/base.css">
     <link rel="stylesheet" href="./assets/css/componentes/cabecalho.css">
@@ -18,25 +18,29 @@
             <img src="/assets/img/Logo.svg" alt="Logo da Adopet" class="cabecalho__logo">
             <a href="./index.html"><img src="./assets/img/Casa.svg" alt="Página Inicial"></a>
             <a href="#"><img src="./assets/img/Mensagens.svg" alt="Caixa de mensagens"></a>
-            <a href="./index.html" class="cabecalho__link-usuario"><img src="./assets/img/Usuário.svg" alt="Página de login"></a>
+            <a href="./index.html" class="cabecalho__link-usuario"><img src="./assets/img/foto-joana.svg" alt="foto de perfil do usuário"></a>
         </nav>
     </header>
 
     <main class="container">
         <h2 class="introducao">
-            Envie uma mensagem para a pessoa ou instituição que está cuidando do animal:
+            Esse é o perfil que aparece para responsáveis ou ONGs que recebem sua mensagem.
         </h2>
 
         <form action="" class="form-cinza">
+            <h2 class="form__titulo">Perfil</h2>
+            <h3 class="form__etiqueta">Foto</h3>
+            <img src="./assets/img/foto-joana.svg" alt="Foto de perfil do usuário" class="form__foto-perfil">
+            <p class="form__texto-foto">Clique na foto para editar</p>
             <label class="form__etiqueta" for="nome">Nome</label>
-            <input class="form__input" type="text" id="nome" placeholder="Insira seu nome completo">
+            <input class="form__input" type="text" id="nome" placeholder="Joana Magalhães">
             <label class="form__etiqueta" for="telefone">Telefone</label>
-            <input class="form__input" type="tel" id="telefone" placeholder="Insira seu telefone e/ou seu Whatsapp">
-            <label class="form__etiqueta" for="animal">Nome do animal</label>
-            <input class="form__input" type="text" id="animal" placeholder="Por qual animalvocê se interessou?">
-            <label class="form__etiqueta" for="mensagem">Mensagem</label>
-            <textarea class="form__input form__input--mensagem" name="mensagem" id="mensagem" cols="30" rows="80" placeholder="Escreva sua mensagem"></textarea>
-            <button class="form__botao">Enviar</button>
+            <input class="form__input" type="tel" id="telefone" placeholder="55 11 XXXXXXXXX">
+            <label class="form__etiqueta" for="animal">Cidade</label>
+            <input class="form__input" type="text" id="animal" placeholder="São Paulo">
+            <label class="form__etiqueta" for="mensagem">Sobre</label>
+            <textarea class="form__input form__input--mensagem" name="mensagem" id="mensagem" cols="30" rows="80" placeholder="Escreva um pouco sobre você"></textarea>
+            <button class="form__botao">Salvar</button>
         </form>
     </main>
 
