@@ -20,6 +20,17 @@
     height: 2.5rem;
 }
 
+.formulario__recuperar-senha {
+    color: var(--coral);
+    display: block;
+    text-decoration: underline;
+    font-family: var(--fonte-principal);
+    font-weight: var(--peso-padrao);
+    font-size: .75rem;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
 .formulario__botao {
     color: var(--branco);
     background: var(--coral);
