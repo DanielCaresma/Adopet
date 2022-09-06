@@ -1,5 +1,5 @@
-@import url("./_variaveis.css");
-@import url("./_reset.css");
+@import url("./variaveis.css");
+@import url("./reset.css");
 
 .app {
     min-height: 100vh;
