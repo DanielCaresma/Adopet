@@ -26,17 +26,33 @@
             Ainda não tem cadastro?<br><br>
             Então, antes de buscar seu melhor amigo, precisamos de alguns dados:
         </p>
-        <form class="formulario" action="">
-            <label class="formulario__label" for="email">Email</label>
-            <input class="formulario__input" id= "email" type="text" placeholder="Escolha seu melhor email" aria-label="Escolha seu melhor email"> 
-            <label class="formulario__label" for="nome">Nome</label>
-            <input class="formulario__input" id="nome" type="text" placeholder="Digite seu nome completo" aria-label="Digite seu nome completo">
-            <label class="formulario__label" for="senha">Senha</label>
-            <i class="fa-solid fa-eye-slash icon-eye"></i>
-            <input class="formulario__input" id="senha" type="password" placeholder="Crie uma senha" aria-label="Crie uma senha">
-            <label class="formulario__label" for="confirma-senha">Confirma sua senha</label>
-            <i class="fa-solid fa-eye-slash icon-eye"></i>
-            <input class="formulario__input" id="confirma-senha" type="password" placeholder="Repita a senha criada acima" aria-label="Repita a senha criada acima">
+        <form class="formulario" action="" data-formulario="">
+            <fieldset class="formulario__campo">
+                <label class="formulario__label" for="email">Email</label>
+                <input class="formulario__input" name="email" id= "email" type="email" placeholder="Escolha seu melhor email" aria-label="Escolha seu melhor email" required>
+                <span class="mensagem-erro"></span>
+            </fieldset>
+
+            <fieldset class="formulario__campo">
+                <label class="formulario__label" for="nome">Nome</label>
+                <input class="formulario__input" name="nome" id="nome" type="text" placeholder="Digite seu nome completo" aria-label="Digite seu nome completo" minlength="3" required>
+                <span class="mensagem-erro"></span>
+            </fieldset>
+
+            <fieldset class="formulario__campo">
+                <label class="formulario__label" for="senha">Senha</label>
+                <i class="fa-solid fa-eye-slash icon-eye"></i>
+                <input class="formulario__input" name="senha" id="senha" type="text" placeholder="Crie uma senha" aria-label="Crie uma senha" minlength="6" pattern="/^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])([a-zA-Z0-9]{8,})$/" required>
+                <span class="mensagem-erro"></span>
+            </fieldset>
+
+            <fieldset class="formulario__campo">
+                <label class="formulario__label" for="confirma-senha">Confirma sua senha</label>
+                <i class="fa-solid fa-eye-slash icon-eye"></i>
+                <input class="formulario__input" name="senha" id="confirma-senha" type="password" placeholder="Repita a senha criada acima" aria-label="Repita a senha criada acima" required>
+                <span class="mensagem-erro"></span>
+            </fieldset>
+
             <button class="formulario__botao">Cadastrar</button>
         </form>
     </main>
@@ -46,5 +62,6 @@
     </footer>
 
     <script src="https://kit.fontawesome.com/9648dafafb.js" crossorigin="anonymous"></script>
+    <script src="./assets/js/validaFormulario.js"></script>
 </body>
 </html>

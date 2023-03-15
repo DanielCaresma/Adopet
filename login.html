@@ -25,12 +25,20 @@
         <p class="conteudo__introducao">
             Já tem sua conta? Faça seu login:
         </p>
-        <form class="formulario" action="">
-            <label class="formulario__label" for="email">Email</label>
-            <input class="formulario__input" id= "email" type="text" placeholder="Insira seu email" aria-label="Insira seu email">
-            <label class="formulario__label" for="senha">Senha</label>
-            <i class="fa-solid fa-eye-slash icon-eye"></i>
-            <input class="formulario__input" id="senha" type="password" placeholder="Insira sua senha" aria-label="Insira sua senha">
+        <form class="formulario" action="" data-formulario="">
+            <fieldset class="formulario__campo">
+                <label class="formulario__label" for="email">Email</label>
+                <input class="formulario__input" name="email" id= "email" type="email" placeholder="Insira seu email" aria-label="Insira seu email" required>
+                <span class="mensagem-erro"></span>
+            </fieldset>
+
+            <fieldset class="formulario__campo">
+                <label class="formulario__label" for="senha">Senha</label>
+                <i class="fa-solid fa-eye-slash icon-eye"></i>
+                <input name="senha" class="formulario__input" id="senha" type="password" placeholder="Insira sua senha" aria-label="Insira sua senha" required>
+                <span class="mensagem-erro"></span>
+            </fieldset>
+
             <a href="#" class="formulario__recuperar-senha">Esqueci minha senha.</a>
             <button class="formulario__botao">Entrar</button>
         </form>
@@ -41,5 +49,6 @@
     </footer>
 
     <script src="https://kit.fontawesome.com/9648dafafb.js" crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
