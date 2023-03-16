@@ -42,14 +42,14 @@
             <fieldset class="formulario__campo">
                 <label class="formulario__label" for="senha">Senha</label>
                 <i class="fa-solid fa-eye-slash icon-eye"></i>
-                <input class="formulario__input" name="senha" id="senha" type="text" placeholder="Crie uma senha" aria-label="Crie uma senha" minlength="6" pattern="/^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])([a-zA-Z0-9]{8,})$/" required>
+                <input class="formulario__input" name="senha" id="senha" type="text" placeholder="Crie uma senha" aria-label="Crie uma senha" minlength="6" pattern="(?=.*[!@#$%¨&*,.^?~=+\-_\/*\-+.\|])(?=.*[a-zA-Z])(?=.*[0-9]).{8,}" data-senha="" required>
                 <span class="mensagem-erro"></span>
             </fieldset>
 
             <fieldset class="formulario__campo">
-                <label class="formulario__label" for="confirma-senha">Confirma sua senha</label>
+                <label class="formulario__label" for="confirmaSenha">Confirma sua senha</label>
                 <i class="fa-solid fa-eye-slash icon-eye"></i>
-                <input class="formulario__input" name="senha" id="confirma-senha" type="password" placeholder="Repita a senha criada acima" aria-label="Repita a senha criada acima" required>
+                <input class="formulario__input" name="confirmaSenha" id="confirma-senha" type="text" placeholder="Repita a senha criada acima" aria-label="Repita a senha criada acima" required>
                 <span class="mensagem-erro"></span>
             </fieldset>
 
@@ -62,6 +62,6 @@
     </footer>
 
     <script src="https://kit.fontawesome.com/9648dafafb.js" crossorigin="anonymous"></script>
-    <script src="./assets/js/validaFormulario.js"></script>
+    <script src="./assets/js/validaFormulario.js" type="module"></script>
 </body>
 </html>

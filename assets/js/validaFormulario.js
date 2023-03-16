@@ -1,3 +1,5 @@
+import confirmaSenha from "./confirmaSenha.js"
+
 const camposDoFormulario = document.querySelectorAll("[required]")
 const fromulario = document.querySelector("[data-formulario]")
 // const mensagemErro = inputEmail.parentNode.querySelector(".mensagem-erro")
@@ -9,7 +11,8 @@ const tiposDeErro = [
     'typeMismatch',
     'patternMismatch',
     'tooShort',
-    'tooLong'
+    'tooLong',
+    'customError'
 ]
 
 const mensagens = {
@@ -25,6 +28,10 @@ const mensagens = {
         valueMissing: 'O campo de senha não pode estar vazio',
         tooShort: "A senha deve conter no mínimo 6 caracteres",
         patternMismatch: "A senha deve conter pelo menos um número, uma letra e um caracter especial",
+    },
+    confirmaSenha: {
+        valueMissing: 'Confirme sua senha para finalizar o cadastro',
+        customError: 'Este campo não corresponde a senha criada anteriormente'
     }
 }
 
@@ -41,6 +48,12 @@ camposDoFormulario.forEach(campo => {
 
 function verificaCampo(campo) {
     let mensagem = ""
+    campo.setCustomValidity('')
+
+    if (campo.name == "confirmaSenha" && CompositionEvent.value != "") {
+        confirmaSenha(campo)
+    }
+
     tiposDeErro.forEach(erro => {
 
         if (campo.validity[erro]) {
@@ -50,7 +63,6 @@ function verificaCampo(campo) {
 
     const mensagemErro = campo.parentNode.querySelector('.mensagem-erro')
     const validadorDeInput = campo.checkValidity()
-    console.log(validadorDeInput)
 
     if (!validadorDeInput) {
         mensagemErro.textContent = mensagem
