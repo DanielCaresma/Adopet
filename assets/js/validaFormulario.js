@@ -2,7 +2,6 @@ import confirmaSenha from "./confirmaSenha.js"
 
 const camposDoFormulario = document.querySelectorAll("[required]")
 const fromulario = document.querySelector("[data-formulario]")
-// const mensagemErro = inputEmail.parentNode.querySelector(".mensagem-erro")
 
 
 
@@ -36,9 +35,26 @@ const mensagens = {
 }
 
 
-fromulario.addEventListener("submit", evento => {
-    evento.preventDefault()
+fromulario.addEventListener("submit", e => {
+    e.preventDefault()
 
+    const novoUsuario = {
+        email: e.target.elements["email"].value,
+        nome: e.target.elements["nome"].value,
+        senha: e.target.elements["senha"].value,
+    }
+
+    if(JSON.parse(localStorage.getItem('usuarios')) != null) {
+        let usuarios = JSON.parse(localStorage.getItem('usuarios'))
+        usuarios.push(novoUsuario)
+        localStorage.setItem('usuarios', JSON.stringify(usuarios))
+    } else {
+        let usuarios = []
+        usuarios.push(novoUsuario)
+        localStorage.setItem('usuarios', JSON.stringify(usuarios))
+    }
+
+    window.location.href = '../login.html'
 })
 
 camposDoFormulario.forEach(campo => {
