@@ -1,4 +1,5 @@
 import confirmaSenha from "./confirmaSenha.js"
+import imprimeErro from "./imprimeErro.js"
 
 const camposDoFormulario = document.querySelectorAll("[required]")
 const fromulario = document.querySelector("[data-formulario]")
@@ -26,7 +27,7 @@ const mensagens = {
     senha: {
         valueMissing: 'O campo de senha não pode estar vazio',
         tooShort: "A senha deve conter no mínimo 6 caracteres",
-        patternMismatch: "A senha deve conter pelo menos um número, uma letra e um caracter especial",
+        patternMismatch: "A senha deve conter pelo menos um número, uma letra e um caracter especial"
     },
     confirmaSenha: {
         valueMissing: 'Confirme sua senha para finalizar o cadastro',
@@ -77,13 +78,6 @@ function verificaCampo(campo) {
         }
     })
 
-    const mensagemErro = campo.parentNode.querySelector('.mensagem-erro')
-    const validadorDeInput = campo.checkValidity()
-
-    if (!validadorDeInput) {
-        mensagemErro.textContent = mensagem
-    } else {
-        mensagemErro.textContent = ""
-    }
+    imprimeErro(campo, mensagem)
 }
 
