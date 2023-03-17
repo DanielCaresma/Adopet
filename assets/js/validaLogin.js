@@ -8,6 +8,12 @@ camposDoFormulario.forEach(campo => {
     campo.addEventListener("invalid", evento => evento.preventDefault())
 })
 
+formulario.addEventListener('submit', e => {
+    e.preventDefault()
+
+    window.location.href = "../animais.html"
+})
+
 function validaLogin(campo) {
     let mensagem = ''
     const usuarios = JSON.parse(localStorage.getItem('usuarios'))
