@@ -8,8 +8,7 @@ eye.forEach(eye => {
 
         if (inputSenha.type == "password") {
             inputSenha.type = "text"
-            eye.classList.value = "fa-solid fa-eye icon-eye"
-            eye.style.before.color = "#00aaff"
+            eye.classList.value = "fa-solid fa-eye icon-eye--hiden"
             console.log(event.target)
         } else {
             inputSenha.type = "password"
@@ -21,3 +20,4 @@ eye.forEach(eye => {
 
     // <i class="fa-solid fa-eye"></i>
 })
+

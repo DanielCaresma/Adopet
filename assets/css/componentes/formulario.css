@@ -39,6 +39,18 @@
     top: 13px;
 }
 
+.icon-eye--hiden {
+    position: relative;
+    float: right;
+}
+
+.icon-eye--hiden::before {
+    color: blue;
+    position: absolute;
+    right: 10px;
+    top: 13px;
+}
+
 .formulario__recuperar-senha {
     color: var(--coral);
     display: block;
