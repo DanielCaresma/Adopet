@@ -17,7 +17,5 @@ eye.forEach(eye => {
         }
         
     })
-
-    // <i class="fa-solid fa-eye"></i>
 })
 
