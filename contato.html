@@ -31,7 +31,7 @@
             <label class="form__etiqueta" for="nome">Nome</label>
             <input class="form__input" type="text" id="nome" placeholder="Insira seu nome completo">
             <label class="form__etiqueta" for="telefone">Telefone</label>
-            <input class="form__input" type="tel" id="telefone" placeholder="Insira seu telefone e/ou seu Whatsapp">
+        <input class="form__input" type="tel" id="telefone" pattern="(?:^\([0]?[1-9]{2}\)|^[0]?[1-9]{2}[\.\-\s]?)[9]?[1-9]\d{3}[\.\-\s]?\d{4}$" minlength="8" maxlength="15" placeholder="Insira seu telefone e/ou seu Whatsapp">
             <label class="form__etiqueta" for="animal">Nome do animal</label>
             <input class="form__input" type="text" id="animal" placeholder="Por qual animalvocê se interessou?">
             <label class="form__etiqueta" for="mensagem">Mensagem</label>
@@ -43,5 +43,7 @@
     <footer class="rodape">
         <p>2022 - Desenvolvido por Alura.</p>
     </footer>
+
+    <script src="./assets/js/mascaraTelefone.js"></script>
 </body>
 </html>
