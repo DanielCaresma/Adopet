@@ -1,0 +1,86 @@
+{
+  "animais": [
+    {
+      "id": 1,
+      "imagem": "./assets/img/animais/dunga.jpg",
+      "nome": "Dunga",
+      "idade": "2 anos",
+      "porte": "pequeno",
+      "personalidade": "Calmo e educado",
+      "cidade": "Rio de Janeiro (RJ)"
+    },
+    {
+      "id": 2,
+      "imagem": "./assets/img/animais/felícia.png",
+      "nome": "Felicia",
+      "idade": "3 meses",
+      "porte": "pequeno",
+      "personalidade": "Ativa e carinhosa",
+      "cidade": "Nova Iguaçu (RJ)"
+    },
+    {
+      "id": 3,
+      "imagem": "./assets/img/animais/sirius.png",
+      "nome": "Sirius",
+      "idade": "6 meses",
+      "porte": "grande",
+      "personalidade": "Ativo e educado",
+      "cidade": "Duque de Caxias (RJ)"
+    },
+    {
+      "id": 4,
+      "imagem": "./assets/img/animais/fiona.png",
+      "nome": "Fiona",
+      "idade": "3 anos",
+      "porte": "pequeno",
+      "personalidade": "calma e carinhosa",
+      "cidade": "São Gonçalo(RJ)"
+    },
+    {
+      "id": 5,
+      "imagem": "./assets/img/animais/sid.png",
+      "nome": "Sid",
+      "idade": "8 meses",
+      "porte": "médio / grande",
+      "personalidade": "Brincalhão e amavel",
+      "cidade": "Rio de Janeiro (RJ)"
+    },
+    {
+      "id": 6,
+      "imagem": "./assets/img/animais/yoda.png",
+      "nome": "Yoda",
+      "idade": "1 ano",
+      "porte": "médio",
+      "personalidade": "Ativo e carinhoso",
+      "cidade": "Nova Iguaçu (RJ)"
+    },
+    {
+      "id": 7,
+      "imagem": "./assets/img/animais/lua.png ",
+      "nome": "Lua",
+      "idade": "6 meses",
+      "porte": "médio",
+      "personalidade": "Ativa e carinhosa",
+      "cidade": "Duque de Caxias (RJ)"
+    },
+    {
+      "id": 8,
+      "imagem": "./assets/img/animais/amora.png ",
+      "nome": "Amora",
+      "idade": "45 dias",
+      "porte": "grande",
+      "personalidade": "Calma e carinhosa",
+      "cidade": "São Gonçalo(RJ)"
+    },
+    {
+      "id": 9,
+      "imagem": "./assets/img/animais/zelda.png ",
+      "nome": "Zelda",
+      "idade": "5 meses",
+      "porte": "médio",
+      "personalidade": "Ativo e amavel",
+      "cidade": "Rio de Janeiro (RJ)"
+    }
+  ]
+}
+
